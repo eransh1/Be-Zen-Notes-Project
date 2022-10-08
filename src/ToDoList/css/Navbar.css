@@ -1,0 +1,45 @@
+.navbar{
+    width: 100%;
+    height: fit-content;
+    border-bottom: 1px solid #dadada;
+    font-size: 2rem;
+    font-weight: 700;
+    padding-left: 4rem;
+    background-color: #f5ba13;
+    color: white;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.brand-text{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+#search{
+    background-color: white;
+    border-radius: 4px;
+    border: none;
+    margin: .25rem;
+    width: 300px;
+    padding: 1rem;
+    font-size: 1rem;
+    margin-bottom: 0;
+    margin-right: 2rem;
+    box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+#search:focus{
+    border: none;
+    outline: none;
+}
+
+@media(max-width:665px){
+    .navbar{
+        padding-left: 1.5rem;
+    }
+    #search{
+        margin-right: 1rem;
+width: 200px;
+    }
+}

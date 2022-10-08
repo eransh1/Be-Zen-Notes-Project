@@ -1,0 +1,84 @@
+body{
+    font-family: "roboto";
+    background-color: #fafafa;
+}
+#fav-note-card-cont{
+    position: relative;
+    height: fit-content;
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+}
+#fav-note-card-cont::-webkit-scrollbar { width: 0 !important }
+#note-card-cont{
+    position: relative;
+    display: block;
+}
+.faltu-brand{
+    width: 100%;
+    height: fit-content;
+    margin-top: 5rem;
+}
+.brand-and-text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    place-content: center;
+
+}
+
+.crown-icon{
+    font-size: 4rem;
+    opacity: .2;
+    color: #80868b;
+}
+.faltu-brand-text{
+    color: #80868b;
+    cursor: default;
+    font-size: 1.375rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.75rem;
+    margin-top: 1.5rem;
+}
+
+
+
+
+
+.pagination-btn{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    list-style: none;
+    justify-content: center;
+    position: relative;
+    bottom: .5rem;
+    margin-bottom: 2rem;
+    padding-top: 1.5rem;
+}
+.pagination-btn a{
+    padding: 10px;
+    margin: 8px;
+    border-radius: 5px;
+    border: 1px solid #f5ba13 ;
+    color:#f5ba13 ;
+    cursor: pointer;
+    text-decoration: none;
+}
+.pagination-btn a:hover{
+    background-color:#f5ba13 ;
+    color: white!important;
+}
+.pagination-active a{
+    background-color:#f5ba13 ;
+    color: white!important;
+}
+.containerrr{
+    position: relative;
+    display: inline-block;
+}

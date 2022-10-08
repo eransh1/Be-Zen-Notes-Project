@@ -1,0 +1,42 @@
+#edit-title,#edit-tag,#edit-message{
+    border: none;
+    background-color: #fafafa;
+    margin: .25rem;
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    margin-bottom: 0;
+    
+}
+#edit-title:focus,#edit-tag:focus{
+    border: none;
+    outline:none ;
+    border-bottom: 1px solid black;
+}
+#edit-message:focus{
+    border: none;
+    outline:none ;
+}
+#edit-title,#edit-tag{
+    border-bottom: 1px solid black;
+}
+#edit-title{
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    font-weight: 600;
+}
+#edit-tag{
+    font-weight: light;
+}
+::placeholder{font-weight: 400;opacity: 1;}
+#edit-message{
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.edit-note-cardd{
+    width: 100%;
+    height: fit-content;
+    border-radius: 11px;
+    background-color: #fafafa;
+    margin-top: 1rem;
+}
